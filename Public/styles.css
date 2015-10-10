@@ -1,0 +1,66 @@
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin: 0 0 1.5% 39.5% !important;
+  }
+}
+
+/* unvisited link */
+a:link {
+  text-align: center;
+    color: #54392d;
+}
+
+/* visited link */
+a:visited {
+  text-align: center;
+    color: #54392d;
+}
+
+/* mouse over link */
+a:hover {
+  text-align: center;
+    color: #ff0000;
+}
+
+/* selected link */
+a:active {
+  text-align: center;
+    color: #54392d;
+}
+
+#dog {
+  text-align: center;
+}
+
+#logo {
+    text-align: center;
+    width: 550px;
+    height: auto;
+    max-width:100%;
+    border:0;
+    margin-left: 30%;
+    padding:0;
+}
+
+ul#bs-example-navbar-collapse-1 {
+  text-align: center;
+}
+
+*{
+  /*text-align: center;*/
+  color: #54392d;
+  font-family: helvetica
+}
+
+.jumbotron{
+  text-align:center
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}*/

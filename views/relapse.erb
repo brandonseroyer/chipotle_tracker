@@ -1,0 +1,17 @@
+
+<h1><strong> <%= @addict.name() %> </strong></h1>
+<h2><p>Relapse Details:</p></h2>
+<p><%= @relapse.date() %><p>
+  <form action="/addicts/<%=@addict.id%>/relapse/" method="post">
+        <ul class="checkbox-grid">
+          <% @all_ingredients.each do |ingredient| %>
+          <label class="checkbox"><input type="checkbox" name="ingredients[]" value= "<%=ingredient.id%>"> <%= ingredient.name %></input></label>
+          <% end %>
+
+         <button type="submit" class="btn btn">Submit</button>
+    </form>
+    <p>Total Calories:</p>
+    <%= @relapse.calorie_total() %>
+
+    <p>Total Fat:</p>
+    <%= @relapse.fat_total() %>

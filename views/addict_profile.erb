@@ -1,0 +1,15 @@
+<ul>
+  <h1><strong><%= @addict.name() %></strong></h1>
+  <p>Relapse Dates:</p>
+  <% @addict.relapses.each do |relapse| %>
+  <li><a href = "/addicts/<%= @addict.id() %>/relapse/<%= relapse.id() %>"><%= relapse.date %></a></li>
+<% end %>
+<br>
+<form action="/add_relapse" method="post">
+  <input id ='addict_id' name='addict_id' type='hidden' value='<%= @addict.id() %>'>
+  <input type='text' name='date' id='date' placeholder='YYYY/MM/DD'>
+  <button type='submit' class='btn btn-primary'>Add New Relapse</button>
+</form>
+
+  <br><a href="/addicts">See All Addicts</a>
+</ul>
