@@ -31,7 +31,7 @@ _This application alllows people stricken with burrito addiction to track their 
 
 ## Technologies Used
 
-_Ruby, HTML, Postgres, SQL, Rspec_
+_Ruby, Sinatra, HTML, CSS, Postgres, SQL, Rspec, Photoshop_
 
 ### Legal
 
