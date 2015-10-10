@@ -1,20 +1,13 @@
 # _Burrito Tracker_
 
-##### _{Brief description of application}, October 7, 2015_
+##### _Allows users to log mexican food releapses and track resulting nutrutial ramifications, October 7, 2015_
 
 #### By _**Trevor Scherling, Brandon Seroyer, Tyler Finley, and Clinton Herrick**_
 
 ## Description
 
-_{This application alllows people stricken with burrito addiction to track their burrito use, and the amount of calories they are consuming during each relapse}_
+_This application alllows people stricken with burrito addiction to track their burrito use, and the amount of calories they are consuming during each relapse_
 
-## Setup
-
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
 
 #### Installation
 
@@ -34,9 +27,6 @@ _{This application alllows people stricken with burrito addiction to track their
 
 * _ruby app.rb_
 * _Navigate to browser, localhost:4567_
-
-
-
 
 
 ## Technologies Used
